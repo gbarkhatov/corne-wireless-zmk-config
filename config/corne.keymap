@@ -13,22 +13,22 @@
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <3 2>;
+            key-positions = <2 1>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <26 27>;
+            key-positions = <26 25>;
         };
 
         bsp {
             bindings = <&kp BACKSPACE>;
-            key-positions = <8 9>;
+            key-positions = <9 10>;
         };
 
         ent {
             bindings = <&kp ENTER>;
-            key-positions = <32 33>;
+            key-positions = <33 34>;
         };
 
         num {
