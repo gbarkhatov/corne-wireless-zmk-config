@@ -40,6 +40,11 @@
             bindings = <&kp DEL>;
             key-positions = <22 21>;
         };
+
+        caps {
+            bindings = <&kp CAPS>;
+            key-positions = <13 14>;
+        };
     };
 
     keymap {
@@ -70,10 +75,10 @@
 
             display-name = "sym";
             bindings = <
-&trans  &kp CAPSLOCK  &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp TILDE           &kp CARET   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp GRAVE        &trans
-&trans  &kp MINUS     &kp PLUS          &kp UNDERSCORE  &kp EQUAL             &kp GREATER_THAN    &kp POUND   &sk RCMD               &sk RALT         &sk RCTRL          &sk RSHFT        &trans
-&trans  &kp SLASH     &kp ASTERISK      &kp AT_SIGN     &kp PIPE              &kp PERCENT         &kp DOLLAR  &kp BACKSLASH          &kp AMPERSAND    &kp QUESTION       &kp EXCLAMATION  &trans
-                                        &trans          &trans                &trans              &trans      &trans                 &trans
+&trans  &kp SQT    &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp TILDE           &kp CARET   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp GRAVE        &trans
+&trans  &kp MINUS  &kp PLUS          &kp UNDERSCORE  &kp EQUAL             &kp GREATER_THAN    &kp POUND   &sk RCMD               &sk RALT         &sk RCTRL          &sk RSHFT        &trans
+&trans  &kp SLASH  &kp ASTERISK      &kp AT_SIGN     &kp PIPE              &kp PERCENT         &kp DOLLAR  &kp BACKSLASH          &kp AMPERSAND    &kp QUESTION       &kp EXCLAMATION  &trans
+                                     &trans          &trans                &trans              &trans      &trans                 &trans
             >;
         };
 
