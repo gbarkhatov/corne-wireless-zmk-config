@@ -75,10 +75,10 @@
 
             display-name = "sym";
             bindings = <
-&trans  &kp SQT    &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp TILDE           &kp CARET   &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp GRAVE        &trans
-&trans  &kp MINUS  &kp PLUS          &kp UNDERSCORE  &kp EQUAL             &kp GREATER_THAN    &kp POUND   &sk RCMD               &sk RALT         &sk RCTRL          &sk RSHFT        &trans
-&trans  &kp SLASH  &kp ASTERISK      &kp AT_SIGN     &kp PIPE              &kp PERCENT         &kp DOLLAR  &kp BACKSLASH          &kp AMPERSAND    &kp QUESTION       &kp EXCLAMATION  &trans
-                                     &trans          &trans                &trans              &trans      &trans                 &trans
+&trans  &kp EXCLAMATION  &kp AT_SIGN       &kp POUND        &kp DOLLAR             &kp PERCENT          &kp CARET  &kp AMPERSAND  &kp ASTERISK  &kp UNDERSCORE  &kp SEMICOLON  &trans
+&trans  &kp GRAVE        &kp TILDE         &kp LEFT_BRACE   &kp LEFT_PARENTHESIS   &kp LEFT_BRACKET     &kp COLON  &sk RCMD       &sk RALT      &sk RCTRL       &sk RSHFT      &trans
+&trans  &kp LESS_THAN    &kp GREATER_THAN  &kp RIGHT_BRACE  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACKET    &kp PIPE   &kp MINUS      &kp EQUAL     &kp PLUS        &kp BACKSLASH  &trans
+                                           &trans           &trans                 &trans               &trans     &trans         &trans
             >;
         };
 
