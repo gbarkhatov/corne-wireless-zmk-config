@@ -91,19 +91,19 @@
 
             display-name = "nav";
             bindings = <
-&trans  &trans     &trans     &trans    &trans    &trans    &trans  &trans    &kp UP_ARROW  &trans     &trans  &trans
-&trans  &sk LSHFT  &sk LCTRL  &sk LALT  &sk LCMD  &trans    &trans  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
-&trans  &trans     &trans     &trans    &trans    &trans    &trans  &trans    &trans        &trans     &trans  &trans
-                              &trans    &trans    &trans    &trans  &trans    &trans
+&trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &trans    &kp PAGE_UP    &trans    &kp UP_ARROW  &trans     &trans  &trans
+&trans  &sk LSHFT          &sk LCTRL        &sk LALT              &sk LCMD              &trans    &kp PAGE_DOWN  &kp LEFT  &kp DOWN      &kp RIGHT  &trans  &trans
+&trans  &trans             &trans           &trans                &trans                &trans    &trans         &trans    &trans        &trans     &trans  &trans
+                                            &trans                &trans                &trans    &trans         &trans    &trans
             >;
         };
 
         num_layer {
             bindings = <
-&trans  &trans     &trans     &trans    &trans    &trans    &kp C_VOLUME_UP  &kp N7        &kp N8        &kp N9        &kp C_BRIGHTNESS_INC  &trans
-&trans  &sk LSHFT  &sk LCTRL  &sk LALT  &sk LCMD  &trans    &kp C_VOL_DN     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp C_BRI_DEC         &trans
-&trans  &trans     &trans     &trans    &trans    &trans    &kp N0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans                &trans
-                              &trans    &trans    &trans    &trans           &trans        &trans
+&trans  &trans     &trans     &trans    &trans    &trans    &trans  &kp N7        &kp N8        &kp N9        &trans  &trans
+&trans  &sk LSHFT  &sk LCTRL  &sk LALT  &sk LCMD  &trans    &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &trans  &trans
+&trans  &trans     &trans     &trans    &trans    &trans    &kp N0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
+                              &trans    &trans    &trans    &trans  &trans        &trans
             >;
 
             label = "num";
