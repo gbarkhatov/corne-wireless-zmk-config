@@ -7,9 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
-&sk {
-    release-after-ms = <2000>;
-};
+&sk { release-after-ms = <2000>; };
 
 / {
     combos {
@@ -17,22 +15,22 @@
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <2 1>;
+            key-positions = <2 3>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <26 25>;
+            key-positions = <26 27>;
         };
 
         bsp {
             bindings = <&kp BACKSPACE>;
-            key-positions = <9 10>;
+            key-positions = <9 8>;
         };
 
         ent {
             bindings = <&kp ENTER>;
-            key-positions = <33 34>;
+            key-positions = <33 32>;
         };
 
         num {
@@ -42,12 +40,12 @@
 
         del {
             bindings = <&kp DEL>;
-            key-positions = <22 21>;
+            key-positions = <21 20>;
         };
 
         caps {
             bindings = <&kp CAPS>;
-            key-positions = <13 14>;
+            key-positions = <14 15>;
         };
     };
 
