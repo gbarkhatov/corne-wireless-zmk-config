@@ -15,22 +15,22 @@
 
         esc {
             bindings = <&kp ESCAPE>;
-            key-positions = <2 3>;
+            key-positions = <2 1>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <26 27>;
+            key-positions = <26 25>;
         };
 
         bsp {
             bindings = <&kp BACKSPACE>;
-            key-positions = <9 8>;
+            key-positions = <9 10>;
         };
 
         ent {
             bindings = <&kp ENTER>;
-            key-positions = <33 32>;
+            key-positions = <33 34>;
         };
 
         num {
@@ -40,12 +40,12 @@
 
         del {
             bindings = <&kp DEL>;
-            key-positions = <21 20>;
+            key-positions = <21 22>;
         };
 
         caps {
             bindings = <&kp CAPS>;
-            key-positions = <14 15>;
+            key-positions = <14 13>;
         };
     };
 
