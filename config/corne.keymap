@@ -7,6 +7,10 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 
+&sk {
+    release-after-ms = <2000>;
+};
+
 / {
     combos {
         compatible = "zmk,combos";
@@ -45,10 +49,6 @@
             bindings = <&kp CAPS>;
             key-positions = <13 14>;
         };
-    };
-
-    &sk {
-        release-after-ms = <2000>;
     };
 
     keymap {
